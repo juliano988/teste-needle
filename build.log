@@ -1,0 +1,69 @@
+
+> my-project@1.0.0 build:production C:\Users\Admin\My project\Needle\CollaborativeSandbox
+> npm run build:dev && npm run pack-gltf "C:\Program Files (x86)\KTX-Software\bin"
+
+
+> my-project@1.0.0 build:dev C:\Users\Admin\My project\Needle\CollaborativeSandbox
+> tsc && vite build && npm run copy-files
+
+[36mvite v3.2.5 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 304 modules transformed.
+rendering chunks...
+[90m[37m[2mdist/[22m[90m[39m[32massets/favicon.8d99ceea.ico  [39m [2m14.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[32mindex.html                   [39m [2m1.00 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[35massets/index.ba4d5d10.css    [39m [2m1.00 KiB / gzip: 0.48 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36massets/index.04d4f9d7.js     [39m [33m4236.77 KiB / gzip: 1324.93 KiB[39m
+
+> my-project@1.0.0 copy-files C:\Users\Admin\My project\Needle\CollaborativeSandbox
+> copy-files-from-to
+
+Reading copy instructions from file package.json
+
+Starting copy operation in "default" mode:
+ ✓ Copied [binary] assets/DefaultAvatar.glb to dist/assets/DefaultAvatar.glb
+ ✓ Copied [binary] assets/scene.glb to dist/assets/scene.glb
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/console/ConsoleReroute.js to dist/include/console/ConsoleReroute.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/draco/draco_decoder.js to dist/include/draco/draco_decoder.js
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/draco/draco_decoder.wasm to dist/include/draco/draco_decoder.wasm
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/ktx2/basis_transcoder.js to dist/include/ktx2/basis_transcoder.js
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/ktx2/basis_transcoder.wasm to dist/include/ktx2/basis_transcoder.wasm
+ ✓ Already exists include/console/ConsoleReroute.js
+ ✓ Already exists include/draco/draco_decoder.js
+ ✓ Already exists include/draco/draco_decoder.wasm
+ ✓ Already exists include/ktx2/basis_transcoder.js
+ ✓ Already exists include/ktx2/basis_transcoder.wasm
+ ✓ Already exists include/three/ARButton.js
+ ✓ Already exists include/three/DragControls.js
+ ✓ Already exists include/three/EXT_mesh_gpu_instancing_exporter.js
+ ✓ Already exists include/three/VRButton.js
+ ✓ Already exists include/three-mesh-ui-assets/backspace.png
+ ✓ Already exists include/three-mesh-ui-assets/enter.png
+ ✓ Already exists include/three-mesh-ui-assets/shift.png
+ ✓ Already exists dist/include/console/ConsoleReroute.js
+ ✓ Already exists dist/include/draco/draco_decoder.js
+ ✓ Already exists dist/include/draco/draco_decoder.wasm
+ ✓ Already exists dist/include/ktx2/basis_transcoder.js
+ ✓ Already exists dist/include/ktx2/basis_transcoder.wasm
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/ARButton.js to dist/include/three/ARButton.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/DragControls.js to dist/include/three/DragControls.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/EXT_mesh_gpu_instancing_exporter.js to dist/include/three/EXT_mesh_gpu_instancing_exporter.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/VRButton.js to dist/include/three/VRButton.js
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/three-mesh-ui-assets/backspace.png to dist/include/three-mesh-ui-assets/backspace.png
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/three-mesh-ui-assets/enter.png to dist/include/three-mesh-ui-assets/enter.png
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/three-mesh-ui-assets/shift.png to dist/include/three-mesh-ui-assets/shift.png
+ ✓ Already exists dist/include/three/ARButton.js
+ ✓ Already exists dist/include/three/DragControls.js
+ ✓ Already exists dist/include/three/EXT_mesh_gpu_instancing_exporter.js
+ ✓ Already exists dist/include/three/VRButton.js
+ ✓ Already exists dist/include/three-mesh-ui-assets/backspace.png
+ ✓ Already exists dist/include/three-mesh-ui-assets/enter.png
+ ✓ Already exists dist/include/three-mesh-ui-assets/shift.png
+
+> my-project@1.0.0 pack-gltf C:\Users\Admin\My project\Needle\CollaborativeSandbox
+> npm run pack-gltf --prefix node_modules/@needle-tools/engine "C:\Program Files (x86)\KTX-Software\bin"
+
+
+> @needle-tools/engine@2.45.0-pre pack-gltf C:\Users\Admin\My project\Needle\CollaborativeSandbox\node_modules\@needle-tools\engine
+> node --no-experimental-fetch node_modules/@needle-tools/gltf-transform-extensions/pack-gltf.mjs "C:\Program Files (x86)\KTX-Software\bin"
+
